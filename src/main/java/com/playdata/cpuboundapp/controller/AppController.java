@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "webhook docker test4";
+        return "webhook docker test5";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
