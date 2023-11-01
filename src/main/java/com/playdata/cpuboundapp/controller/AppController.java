@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "rolling deploy";
+        return "rolling deploy, sleep 60";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
