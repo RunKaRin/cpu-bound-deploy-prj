@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "next test3!";
+        return "next test4";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
